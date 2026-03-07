@@ -1,6 +1,6 @@
 # Fuel Composition Calculator
 
-A Flutter mobile app for calculating fuel composition and heating values based on input percentages of elements.
+A Flutter mobile app for calculating.
 
 ## Getting Started
 
