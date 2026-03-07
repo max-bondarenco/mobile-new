@@ -1,4 +1,4 @@
-# Fuel Composition Calculator
+# Crossplatform calculator
 
 A Flutter mobile app for calculating.
 
