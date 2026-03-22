@@ -213,6 +213,9 @@ const Map<String, double> constants43 = {
   "k": 0.009,
   "St": 6.3
 };
+double b(double p, double Pa, double o) {
+  return exp(pow(p - Pa, 2.0) / (2 * pow(o, 2))) / (o * sqrt(2 * pi));
+}
 
 double pd(double p, double pc, double o) {
   final double exponent = -1.0 * pow(p - pc, 2.0) / (2.0 * pow(o, 2.0));
@@ -228,10 +231,6 @@ double integrate(double Function(double) func, double a, double b,
     sum += func(a + i * h);
   }
   return sum * h;
-}
-
-double b(double p, double Pa, double o) {
-  return exp(pow(p - Pa, 2.0) / (2 * pow(o, 2))) / (o * sqrt(2 * pi));
 }
 
 String calculateResultsT31(Map<String, String> inputs) {

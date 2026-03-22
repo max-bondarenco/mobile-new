@@ -75,7 +75,7 @@ class _Screen51State extends State<Screen51> {
                       return Padding(
                         padding: const EdgeInsets.symmetric(vertical: 8.0),
                         child: DropdownButtonFormField<String>(
-                          value: value,
+                          initialValue: value,
                           decoration: InputDecoration(
                             labelText: key,
                             border: const OutlineInputBorder(),
