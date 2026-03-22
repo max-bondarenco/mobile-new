@@ -1,6 +1,6 @@
-# Fuel Composition Calculator
+# Crossplatform calculator
 
-A Flutter mobile app for calculating fuel composition and heating values based on input percentages of elements.
+A Flutter mobile app for calculating.
 
 ## Getting Started
 
@@ -10,9 +10,9 @@ A Flutter mobile app for calculating fuel composition and heating values based o
 
 ## Usage
 
-- Enter the percentages for each element (H, C, S, N, O, W, A) in the input fields.
+- Enter the values in the input fields.
 - Press the "Calculate" button to compute the results.
-- The results include transition coefficients, dry and combustible compositions, and heating values.
+- The results will be shown below.
 
 ## Troubleshooting
 
